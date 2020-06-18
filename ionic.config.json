@@ -1,0 +1,7 @@
+{
+  "name": "Random Smash Generator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
