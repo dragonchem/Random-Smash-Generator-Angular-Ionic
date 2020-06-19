@@ -4,7 +4,6 @@
     padding: 1.5%;
     display: inline-block;
     position: relative;
-    height: 334px;
 }
 
 .helper {
@@ -14,8 +13,9 @@
 }
 
 img {
-    height: 300px;
     vertical-align: middle;
+    height: 100%;
+    height: auto;
 }
 
 ion-content {
@@ -51,5 +51,5 @@ ion-item {
 }
 
 .container {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }

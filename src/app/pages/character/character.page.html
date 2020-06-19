@@ -6,11 +6,13 @@
 </ion-header>
 
 <ion-content>
-  <ion-input placeholder="Name" [(ngModel)]="sName"></ion-input>
-  <p>Image:</p>
-  <input type="file" placeholder="Name" #img>
-  <p>Audio:</p>
-  <input type="file" placeholder="Name" #audio>
-  <p></p>
-  <ion-button (click)="submit()">Add</ion-button>
+  <div class="container">
+    <ion-input placeholder="Name" [(ngModel)]="sName"></ion-input>
+    <p>Image (not required):</p>
+    <input type="file" placeholder="Name" #img>
+    <p>Audio (not required):</p>
+    <input type="file" placeholder="Name" #audio>
+    <p></p>
+    <ion-button (click)="submit()">Add</ion-button>
+  </div>
 </ion-content>
