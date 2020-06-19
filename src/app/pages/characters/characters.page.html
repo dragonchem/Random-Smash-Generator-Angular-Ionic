@@ -1,9 +1,44 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>characters</ion-title>
+    <ion-menu-button color="primary" slot="start"></ion-menu-button>
+    <ion-icon routerLink="/character" color="primary" name="add" slot="end"></ion-icon>
+    <ion-title color="primary">Characters</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-menu side="start" menuId="first" contentId="main">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title color="primary">Menu</ion-title>
+      <ion-icon (click)="makePreset()" name="save" slot="end"></ion-icon>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item (click)="ds.all(true)"><div>Enable All</div></ion-item>
+      <ion-item (click)="ds.all(false)"><div>Disable All</div></ion-item>
+      <ion-item *ngFor="let preset of ds.Presets; let i = index">
+        <div (click)="openPreset(preset)">
+          {{ preset.name }}
+        </div>
+        <ion-icon (click)="ds.removePreset(preset)" slot="end" name="trash"></ion-icon>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
 
+<ion-content id="main">
+  <div class="container">
+    <div (click)="ds.enableCharacter(i)" class="character" *ngFor="let character of ds.Characters; let i = index">
+      <span class="helper"></span>
+      <img [class]="character.enabled.toString()" [src]="'../../../assets/img/' + character.img">
+      <p [class]="character.enabled.toString()">{{ character.name }}</p>
+    </div>
+    <div (click)="ds.enableCustomCharacter(i)" class="character" *ngFor="let character of ds.CustomCharacters; let i = index">
+      <span class="helper"></span>
+      <img [class]="character.enabled.toString()" [src]="character.img">
+      <p [class]="character.enabled.toString()">{{ character.name }}</p>
+      <ion-icon (click)="remove(i)" class="custom" color="primary" name="trash"></ion-icon>
+    </div>
+  </div>
 </ion-content>

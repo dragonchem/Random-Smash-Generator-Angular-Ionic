@@ -1,9 +1,16 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>home</ion-title>
+    <ion-title color="primary">Home</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <div class="row1">
+    <span class="helper"></span>
+    <img [src]="Image">
+  </div>
+  <div class="row2">
+    <p>{{ Text }}</p>
+    <ion-button (click)="randomize()" class="button">Randomize</ion-button>
+  </div>
 </ion-content>

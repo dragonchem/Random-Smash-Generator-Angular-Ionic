@@ -1,9 +1,18 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>settings</ion-title>
+    <ion-title color="primary">Settings</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-list>
+    <ion-item>
+      Volume
+      <ion-range min="0" max="100" (ionChange)="ds.save()" [(ngModel)]="ds.Volume"></ion-range>
+    </ion-item>
+    <ion-item>
+      Iron Man Mode (disable character when picked)
+      <ion-toggle slot="end" (click)="ds.save()" [(ngModel)]="ds.IronMan"></ion-toggle>
+    </ion-item>
+  </ion-list>
 </ion-content>

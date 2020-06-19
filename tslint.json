@@ -1,4 +1,10 @@
 {
+  "linterOptions": {
+    "exclude": [
+       "*.json",
+       "**/*.json"
+    ]  
+  },
   "extends": "tslint:recommended",
   "rules": {
     "align": {

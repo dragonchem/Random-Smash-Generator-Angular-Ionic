@@ -1,0 +1,55 @@
+.character {
+    width: 33.33333333333%;
+    max-width: 300px;
+    padding: 1.5%;
+    display: inline-block;
+    position: relative;
+    height: 334px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img {
+    height: 300px;
+    vertical-align: middle;
+}
+
+ion-content {
+    text-align: center;
+}
+
+img.false {
+    filter: grayscale(100%);
+}
+
+p.false {
+    color: gray;
+}
+
+ion-icon {
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    color: #FE6347;
+}
+
+ion-item {
+    div {
+        width: 100%;
+        padding: 23px 0;
+    }
+}
+
+.custom {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container {
+    margin-bottom: 25px;
+}

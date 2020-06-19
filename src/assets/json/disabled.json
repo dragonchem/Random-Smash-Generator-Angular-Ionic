@@ -1,0 +1,578 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Mario",
+            "img": "Mario.png",
+            "audio": "Mario.wav",
+            "enabled": false
+        },
+        {
+            "id": 2,
+            "name": "DK",
+            "img": "DK.png",
+            "audio": "DK.wav",
+            "enabled": false
+        },
+        {
+            "id": 3,
+            "name": "Link",
+            "img": "Link.png",
+            "audio": "Link.wav",
+            "enabled": false
+        },
+        {
+            "id": 4,
+            "name": "Samus",
+            "img": "Samus.png",
+            "audio": "Samus.wav",
+            "enabled": false
+        },
+        {
+            "id": 5,
+            "name": "Dark Samus",
+            "img": "Dark_Samus.png",
+            "audio": "Dark_Samus.wav",
+            "enabled": false
+        },
+        {
+            "id": 6,
+            "name": "Yoshi",
+            "img": "Yoshi.png",
+            "audio": "Yoshi.wav",
+            "enabled": false
+        },
+        {
+            "id": 7,
+            "name": "Kirby",
+            "img": "Kirby.png",
+            "audio": "Kirby.wav",
+            "enabled": false
+        },
+        {
+            "id": 8,
+            "name": "Fox",
+            "img": "Fox.png",
+            "audio": "Fox.wav",
+            "enabled": false
+        },
+        {
+            "id": 9,
+            "name": "Pikachu",
+            "img": "Pikachu.png",
+            "audio": "Pikachu.wav",
+            "enabled": false
+        },
+        {
+            "id": 10,
+            "name": "Luigi",
+            "img": "Luigi.png",
+            "audio": "Luigi.wav",
+            "enabled": false
+        },
+        {
+            "id": 11,
+            "name": "Ness",
+            "img": "Ness.png",
+            "audio": "Ness.wav",
+            "enabled": false
+        },
+        {
+            "id": 12,
+            "name": "Captain Falcon",
+            "img": "Captain_Falcon.png",
+            "audio": "Captain_Falcon.wav",
+            "enabled": false
+        },
+        {
+            "id": 13,
+            "name": "Jigglypuff",
+            "img": "Jigglypuff.png",
+            "audio": "Jigglypuff.wav",
+            "enabled": false
+        },
+        {
+            "id": 14,
+            "name": "Peach",
+            "img": "Peach.png",
+            "audio": "Peach.wav",
+            "enabled": false
+        },
+        {
+            "id": 15,
+            "name": "Daisy",
+            "img": "Daisy.png",
+            "audio": "Daisy.wav",
+            "enabled": false
+        },
+        {
+            "id": 16,
+            "name": "Bowser",
+            "img": "Bowser.png",
+            "audio": "Bowser.wav",
+            "enabled": false
+        },
+        {
+            "id": 17,
+            "name": "Ice Climbers",
+            "img": "Ice_Climbers.png",
+            "audio": "Ice_Climbers.wav",
+            "enabled": false
+        },
+        {
+            "id": 18,
+            "name": "Sheik",
+            "img": "Sheik.png",
+            "audio": "Sheik.wav",
+            "enabled": false
+        },
+        {
+            "id": 19,
+            "name": "Zelda",
+            "img": "Zelda.png",
+            "audio": "Zelda.wav",
+            "enabled": false
+        },
+        {
+            "id": 20,
+            "name": "Dr. Mario",
+            "img": "Dr_Mario.png",
+            "audio": "Dr_Mario.wav",
+            "enabled": false
+        },
+        {
+            "id": 21,
+            "name": "Pichu",
+            "img": "Pichu.png",
+            "audio": "Pichu.wav",
+            "enabled": false
+        },
+        {
+            "id": 22,
+            "name": "Falco",
+            "img": "Falco.png",
+            "audio": "Falco.wav",
+            "enabled": false
+        },
+        {
+            "id": 23,
+            "name": "Marth",
+            "img": "Marth.png",
+            "audio": "Marth.wav",
+            "enabled": false
+        },
+        {
+            "id": 24,
+            "name": "Lucina",
+            "img": "Lucina.png",
+            "audio": "Lucina.wav",
+            "enabled": false
+        },
+        {
+            "id": 25,
+            "name": "Young Link",
+            "img": "Young_Link.png",
+            "audio": "Young_Link.wav",
+            "enabled": false
+        },
+        {
+            "id": 26,
+            "name": "Ganondorf",
+            "img": "Ganondorf.png",
+            "audio": "Ganondorf.wav",
+            "enabled": false
+        },
+        {
+            "id": 27,
+            "name": "Mewtwo",
+            "img": "Mewtwo.png",
+            "audio": "Mewtwo.wav",
+            "enabled": false
+        },
+        {
+            "id": 28,
+            "name": "Roy",
+            "img": "Roy.png",
+            "audio": "Roy.wav",
+            "enabled": false
+        },
+        {
+            "id": 29,
+            "name": "Chrom",
+            "img": "Chrom.png",
+            "audio": "Chrom.wav",
+            "enabled": false
+        },
+        {
+            "id": 30,
+            "name": "Mr. Game and Watch",
+            "img": "Mr_Game_and_Watch.png",
+            "audio": "Mr_Game_and_Watch.wav",
+            "enabled": false
+        },
+        {
+            "id": 31,
+            "name": "Meta Knight",
+            "img": "Meta_Knight.png",
+            "audio": "Meta_Knight.wav",
+            "enabled": false
+        },
+        {
+            "id": 32,
+            "name": "Pit",
+            "img": "Pit.png",
+            "audio": "Pit.wav",
+            "enabled": false
+        },
+        {
+            "id": 33,
+            "name": "Dark Pit",
+            "img": "Dark_Pit.png",
+            "audio": "Dark_Pit.wav",
+            "enabled": false
+        },
+        {
+            "id": 34,
+            "name": "Zero Suit Samus",
+            "img": "Zero_Suit_Samus.png",
+            "audio": "Zero_Suit_Samus.wav",
+            "enabled": false
+        },
+        {
+            "id": 35,
+            "name": "Wario",
+            "img": "Wario.png",
+            "audio": "Wario.wav",
+            "enabled": false
+        },
+        {
+            "id": 36,
+            "name": "Snake",
+            "img": "Snake.png",
+            "audio": "Snake.wav",
+            "enabled": false
+        },
+        {
+            "id": 37,
+            "name": "Ike",
+            "img": "Ike.png",
+            "audio": "Ike.wav",
+            "enabled": false
+        },
+        {
+            "id": 38,
+            "name": "Squirtle",
+            "img": "Squirtle.png",
+            "audio": "Pokemon_Trainer.wav",
+            "enabled": false
+        },
+        {
+            "id": 39,
+            "name": "Ivysaur",
+            "img": "Ivysaur.png",
+            "audio": "Pokemon_Trainer.wav",
+            "enabled": false
+        },
+        {
+            "id": 40,
+            "name": "Charizard",
+            "img": "Charizard.png",
+            "audio": "Pokemon_Trainer.wav",
+            "enabled": false
+        },
+        {
+            "id": 41,
+            "name": "Diddy Kong",
+            "img": "Diddy_Kong.png",
+            "audio": "Diddy_Kong.wav",
+            "enabled": false
+        },
+        {
+            "id": 42,
+            "name": "Lucas",
+            "img": "Lucas.png",
+            "audio": "Lucas.wav",
+            "enabled": false
+        },
+        {
+            "id": 43,
+            "name": "Sonic",
+            "img": "Sonic.png",
+            "audio": "Sonic.wav",
+            "enabled": false
+        },
+        {
+            "id": 44,
+            "name": "King Dedede",
+            "img": "King_Dedede.png",
+            "audio": "King_Dedede.wav",
+            "enabled": false
+        },
+        {
+            "id": 45,
+            "name": "Olimar",
+            "img": "Olimar.png",
+            "audio": "Olimar.wav",
+            "enabled": false
+        },
+        {
+            "id": 46,
+            "name": "Lucario",
+            "img": "Lucario.png",
+            "audio": "Lucario.wav",
+            "enabled": false
+        },
+        {
+            "id": 47,
+            "name": "R.O.B.",
+            "img": "ROB.png",
+            "audio": "ROB.wav",
+            "enabled": false
+        },
+        {
+            "id": 48,
+            "name": "Toon Link",
+            "img": "Toon_Link.png",
+            "audio": "Toon_Link.wav",
+            "enabled": false
+        },
+        {
+            "id": 49,
+            "name": "Wolf",
+            "img": "Wolf.png",
+            "audio": "Wolf.wav",
+            "enabled": false
+        },
+        {
+            "id": 50,
+            "name": "Villager",
+            "img": "Villager.png",
+            "audio": "Villager.wav",
+            "enabled": false
+        },
+        {
+            "id": 51,
+            "name": "Mega Man",
+            "img": "Mega_Man.png",
+            "audio": "Mega_Man.wav",
+            "enabled": false
+        },
+        {
+            "id": 52,
+            "name": "Wii Fit Trainer",
+            "img": "Wii_Fit_Trainer.png",
+            "audio": "Wii_Fit_Trainer.wav",
+            "enabled": false
+        },
+        {
+            "id": 53,
+            "name": "Rosalina & Luma",
+            "img": "Rosalina.png",
+            "audio": "Rosalina.wav",
+            "enabled": false
+        },
+        {
+            "id": 54,
+            "name": "Little Mac",
+            "img": "Little_Mac.png",
+            "audio": "Little_Mac.wav",
+            "enabled": false
+        },
+        {
+            "id": 55,
+            "name": "Greninja",
+            "img": "Greninja.png",
+            "audio": "Greninja.wav",
+            "enabled": false
+        },
+        {
+            "id": 56,
+            "name": "Mii Brawler",
+            "img": "Mii_Brawler.png",
+            "audio": "Mii_Brawler.wav",
+            "enabled": false
+        },
+        {
+            "id": 57,
+            "name": "Mii Swordfighter",
+            "img": "Mii_Swordfighter.png",
+            "audio": "Mii_Swordfighter.wav",
+            "enabled": false
+        },
+        {
+            "id": 58,
+            "name": "Mii Gunner",
+            "img": "Mii_Gunner.png",
+            "audio": "Mii_Gunner.wav",
+            "enabled": false
+        },
+        {
+            "id": 59,
+            "name": "Palutena",
+            "img": "Palutena.png",
+            "audio": "Palutena.wav",
+            "enabled": false
+        },
+        {
+            "id": 60,
+            "name": "Pac-Man",
+            "img": "Pac-man.png",
+            "audio": "Pac-Man.wav",
+            "enabled": false
+        },
+        {
+            "id": 61,
+            "name": "Robin",
+            "img": "Robin.png",
+            "audio": "Robin.wav",
+            "enabled": false
+        },
+        {
+            "id": 62,
+            "name": "Shulk",
+            "img": "Shulk.png",
+            "audio": "Shulk.wav",
+            "enabled": false
+        },
+        {
+            "id": 63,
+            "name": "Bowser Jr.",
+            "img": "Bowser_Jr.png",
+            "audio": "Bowser_Jr.wav",
+            "enabled": false
+        },
+        {
+            "id": 64,
+            "name": "Duck Hunt",
+            "img": "Duck_Hunt.png",
+            "audio": "Duck_Hunt.wav",
+            "enabled": false
+        },
+        {
+            "id": 65,
+            "name": "Ryu",
+            "img": "Ryu.png",
+            "audio": "Ryu.wav",
+            "enabled": false
+        },
+        {
+            "id": 66,
+            "name": "Ken",
+            "img": "Ken.png",
+            "audio": "Ken.wav",
+            "enabled": false
+        },
+        {
+            "id": 67,
+            "name": "Cloud",
+            "img": "Cloud.png",
+            "audio": "Cloud.wav",
+            "enabled": false
+        },
+        {
+            "id": 68,
+            "name": "Corrin",
+            "img": "Corrin.png",
+            "audio": "Corrin.wav",
+            "enabled": false
+        },
+        {
+            "id": 69,
+            "name": "Bayonetta",
+            "img": "Bayonetta.png",
+            "audio": "Bayonetta.wav",
+            "enabled": false
+        },
+        {
+            "id": 70,
+            "name": "Inkling",
+            "img": "Inkling.png",
+            "audio": "Inkling.wav",
+            "enabled": false
+        },
+        {
+            "id": 71,
+            "name": "Ridley",
+            "img": "Ridley.png",
+            "audio": "Ridley.wav",
+            "enabled": false
+        },
+        {
+            "id": 72,
+            "name": "Simon",
+            "img": "Simon.png",
+            "audio": "Simon.wav",
+            "enabled": false
+        },
+        {
+            "id": 73,
+            "name": "Richter",
+            "img": "Richter.png",
+            "audio": "Richter.wav",
+            "enabled": false
+        },
+        {
+            "id": 74,
+            "name": "King k Rool",
+            "img": "King_K_Rool.png",
+            "audio": "King_K_Rool.wav",
+            "enabled": false
+        },
+        {
+            "id": 75,
+            "name": "Isabelle",
+            "img": "Isabelle.png",
+            "audio": "Isabelle.wav",
+            "enabled": false
+        },
+        {
+            "id": 76,
+            "name": "Incineroar",
+            "img": "Incineroar.png",
+            "audio": "Incineroar.wav",
+            "enabled": false
+        },
+        {
+            "id": 77,
+            "name": "Piranha Plant",
+            "img": "Piranha_Plant.png",
+            "audio": "Piranha_Plant.wav",
+            "enabled": false
+        },
+        {
+            "id": 78,
+            "name": "Joker",
+            "img": "Joker.png",
+            "audio": "Joker.wav",
+            "enabled": false
+        },
+        {
+            "id": 79,
+            "name": "Hero",
+            "img": "Hero.png",
+            "audio": "Hero.wav",
+            "enabled": false
+        },
+        {
+            "id": 80,
+            "name": "Banjo & Kazooie",
+            "img": "Banjo_Kazooie.png",
+            "audio": "Banjo_Kazooie.wav",
+            "enabled": false
+        },
+        {
+            "id": 81,
+            "name": "Terry",
+            "img": "Terry.png",
+            "audio": "Terry.wav",
+            "enabled": false
+        },
+        {
+            "id": 82,
+            "name": "Byleth",
+            "img": "Byleth.png",
+            "audio": "Byleth.wav",
+            "enabled": false
+        }
+    ]
+}

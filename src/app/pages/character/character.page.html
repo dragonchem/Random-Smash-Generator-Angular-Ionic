@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="primary">Custom Character</ion-title>
+    <ion-icon (click)="back()" name="close" slot="end"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-input placeholder="Name" [(ngModel)]="sName"></ion-input>
+  <p>Image:</p>
+  <input type="file" placeholder="Name" #img>
+  <p>Audio:</p>
+  <input type="file" placeholder="Name" #audio>
+  <p></p>
+  <ion-button (click)="submit()">Add</ion-button>
+</ion-content>
