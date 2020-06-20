@@ -32,7 +32,7 @@
   <div class="container">
     <div (click)="ds.enableCharacter(i)" class="character" *ngFor="let character of ds.Characters; let i = index">
       <span class="helper"></span>
-      <img [class]="character.enabled.toString()" [src]="'../../../assets/img/' + character.img">
+      <img [class]="character.enabled.toString()" [src]="character.img">
       <p [class]="character.enabled.toString()">{{ character.name }}</p>
     </div>
     <div (click)="ds.enableCustomCharacter(i)" class="character" *ngFor="let character of ds.CustomCharacters; let i = index">

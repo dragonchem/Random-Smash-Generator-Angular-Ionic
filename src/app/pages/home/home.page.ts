@@ -8,9 +8,8 @@ import { DataService } from 'src/app/services/data.service';
 })
 export class HomePage implements OnInit {
 
-  Image = '../../../assets/img/random.png'
+  Image = 'assets/img/random.png'
   Text = "Press the button to randomize a character."
-
   constructor(public ds: DataService) { }
 
   ngOnInit() {
@@ -19,8 +18,8 @@ export class HomePage implements OnInit {
   randomize() {
     let filter = []
     this.ds.Characters.forEach(character => {
-      character.img = "../../../assets/img/" + character.img
-      character.audio = '../../../assets/sound/' + character.audio
+      character.img = character.img
+      character.audio = character.audio
       filter.push(character)
     });
     this.ds.CustomCharacters.forEach(character => {
